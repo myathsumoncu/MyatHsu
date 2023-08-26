@@ -1,0 +1,56 @@
+* {
+    font-family: montserrat;
+}
+
+body {
+    background: #F1FbFF;
+    overflow-x: hidden;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+.carousel-item .carousel-caption {
+    bottom: 180px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: 15px auto;
+}
+
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.486);
+    z-index: 1;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;    
+}
+
+.nav-item .nav-link {
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover {
+    color: yellow; 
+}
+
